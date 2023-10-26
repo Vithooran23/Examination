@@ -1,6 +1,6 @@
 // 01.
-let a1 = [];
-console.log(a1);
+let a1 = {};
+console.log(a1)
 
 // 02.
 function introduceYou(){
@@ -62,15 +62,19 @@ console.log(student + course);
 
 // 09. how do you check an object has a specific property say address?
 // if there an address, log (address is there) in console, if not (address not found)
-
-function answer(address){
-  let lowerCaseQuestion = address.toLowerCase();
+let object = {
+  name5: "Thasangan",
+  gender: "male",
+  address: "Chava"
+}
+// function (address){
+//   let lowerCaseQuestion = address.toLowerCase();
 
   // if (lowerCaseQuestion == 'yes'){
   //   return "if there is "
   // }
    
-}
+// }
 
 
 // 10. create an object book with peoperities for tiitle, author,and year and then convert it into a JSON string
